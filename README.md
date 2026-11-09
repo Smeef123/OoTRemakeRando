@@ -73,7 +73,7 @@ Every other check keeps its normal item, and the randomizer's logic knows that.
 - Upgrades (Hookshot → Longshot, bomb bags, ...) are fixed when the seed is installed, in the order the spoiler log
   expects you to find them; Ship of Harkinian decides when you pick them up.
 - Hints are English only, and a hint may be on a different stone of the same area than in Ship of Harkinian.
-- Tested in game: chest items (bomb bag and ice arrows from Mido's chests). Shops, minigame prizes and the newer
+- Tested in game: chest items (bomb bag and ice arrows from Mido's chests) and shops. Minigame prizes and the newer
   heart pieces have been tested as far as generating and installing seeds, not yet in play. Songs, gifts, swapped heart pieces, hints
   and Closed Forest have been tested as far as generating, installing and starting the game, not yet in play.
 
