@@ -1,0 +1,321 @@
+{
+ "RC_KF_KOKIRI_SWORD_CHEST": {
+  "folder": "KokiriForest",
+  "hash": 16757992849254467386,
+  "note": "sword chest, event Get_StoneOfForest_GetSword"
+ },
+ "RC_KF_MIDOS_BOTTOM_LEFT_CHEST": {
+  "folder": "KokiriForest",
+  "hash": 10831981390482426294,
+  "note": "Mido's house cluster, the green one"
+ },
+ "RC_KF_MIDOS_TOP_LEFT_CHEST": {
+  "folder": "KokiriForest",
+  "hash": 4555665598794293658,
+  "note": "Mido's house cluster (all four share one logic region)"
+ },
+ "RC_KF_MIDOS_TOP_RIGHT_CHEST": {
+  "folder": "KokiriForest",
+  "hash": 9725242744547055868,
+  "note": "Mido's house cluster"
+ },
+ "RC_KF_MIDOS_BOTTOM_RIGHT_CHEST": {
+  "folder": "KokiriForest",
+  "hash": 12786193094758345086,
+  "note": "Mido's house cluster; remake holds a blue rupee, N64 a heart"
+ },
+ "RC_KF_STORMS_GROTTO_CHEST": {
+  "folder": "KokiriForest",
+  "hash": 14818888396401495482,
+  "note": "guess: lower static chest (-71,104,-63); the purple chest at (-132,124,-16) left vanilla. Either choice is safe: this check's logic is stricter than a free chest's"
+ },
+ "RC_DEKU_TREE_MAP_CHEST": {
+  "folder": "InsideTheDekuTree",
+  "hash": 8579518566955184384,
+  "note": "room 0"
+ },
+ "RC_DEKU_TREE_SLINGSHOT_CHEST": {
+  "folder": "InsideTheDekuTree",
+  "hash": 821372075822700622,
+  "note": "room 2"
+ },
+ "RC_DEKU_TREE_SLINGSHOT_ROOM_SIDE_CHEST": {
+  "folder": "InsideTheDekuTree",
+  "hash": 13027331340815880287,
+  "note": "room 2, remake holds nuts (N64 heart)"
+ },
+ "RC_DEKU_TREE_COMPASS_CHEST": {
+  "folder": "InsideTheDekuTree",
+  "hash": 9284193025315608699,
+  "note": "room 3"
+ },
+ "RC_DEKU_TREE_COMPASS_ROOM_SIDE_CHEST": {
+  "folder": "InsideTheDekuTree",
+  "hash": 11368028582977069031,
+  "note": "room 3, remake holds nuts"
+ },
+ "RC_DEKU_TREE_BASEMENT_CHEST": {
+  "folder": "InsideTheDekuTree",
+  "hash": 12889104996486369065,
+  "note": "room 4, remake holds sticks"
+ },
+ "RC_DMT_FREESTANDING_POH": {
+  "folder": "DeathMountainTrail",
+  "hash": 715147239509454487,
+  "note": "only freestanding PoH in DMT",
+  "mode": "actor"
+ },
+ "RC_COLOSSUS_FREESTANDING_POH": {
+  "folder": "DesertColossus",
+  "hash": 10592092054086534681,
+  "note": "only freestanding PoH at Colossus",
+  "mode": "actor"
+ },
+ "RC_GRAVEYARD_FREESTANDING_POH": {
+  "folder": "Graveyard",
+  "hash": 2157466067026784951,
+  "note": "only freestanding PoH in Graveyard",
+  "mode": "actor"
+ },
+ "RC_ZF_BOTTOM_FREESTANDING_POH": {
+  "folder": "ZoraFountain",
+  "hash": 8030885465575590602,
+  "note": "lower of the two (y 71): lakebed",
+  "mode": "actor"
+ },
+ "RC_ZF_ICEBERG_FREESTANDING_POH": {
+  "folder": "ZoraFountain",
+  "hash": 12406896586250888098,
+  "note": "higher of the two (y 103): iceberg",
+  "mode": "actor"
+ },
+ "RC_ZR_NEAR_DOMAIN_FREESTANDING_POH": {
+  "folder": "ZoraRiver",
+  "hash": 4189391771527808272,
+  "note": "guess: upstream/higher one (y 120)",
+  "mode": "actor"
+ },
+ "RC_ZR_NEAR_OPEN_GROTTO_FREESTANDING_POH": {
+  "folder": "ZoraRiver",
+  "hash": 11455676800795329345,
+  "note": "guess: downstream/lower one (y 111)",
+  "mode": "actor"
+ },
+ "RC_LH_FREESTANDING_POH": {
+  "folder": "HyruleField",
+  "hash": 13469300937852836203,
+  "note": "lake area (z~425, near fishing pond), high y 163: lab roof; adult-only file like SoH logic",
+  "mode": "actor"
+ },
+ "RC_DEKU_TREE_QUEEN_GOHMA_HEART": {
+  "folder": "InsideTheDekuTree",
+  "hash": 17948245526767051747,
+  "note": "boss room heart container",
+  "mode": "actor"
+ },
+ "RC_DODONGOS_CAVERN_KING_DODONGO_HEART": {
+  "folder": "DodongoCavern",
+  "hash": 5936534468710061389,
+  "note": "boss room heart container",
+  "mode": "actor"
+ },
+ "RC_JABU_JABUS_BELLY_BARINADE_HEART": {
+  "folder": "InsideJabuJabuBelly",
+  "hash": 17608884438514432711,
+  "note": "boss room heart container",
+  "mode": "actor"
+ },
+ "RC_FOREST_TEMPLE_PHANTOM_GANON_HEART": {
+  "folder": "ForestTemple",
+  "hash": 18379569660496940670,
+  "note": "boss room heart container",
+  "mode": "actor"
+ },
+ "RC_FIRE_TEMPLE_VOLVAGIA_HEART": {
+  "folder": "FireTemple",
+  "hash": 9478330070473364248,
+  "note": "boss room heart container",
+  "mode": "actor"
+ },
+ "RC_WATER_TEMPLE_MORPHA_HEART": {
+  "folder": "WaterTemple",
+  "hash": 14426685265732353862,
+  "note": "boss room heart container",
+  "mode": "actor"
+ },
+ "RC_SHADOW_TEMPLE_BONGO_BONGO_HEART": {
+  "folder": "ShadowTemple",
+  "hash": 17599164808183510748,
+  "note": "boss room heart container",
+  "mode": "actor"
+ },
+ "RC_SPIRIT_TEMPLE_TWINROVA_HEART": {
+  "folder": "SpiritTemple",
+  "hash": 4720088048159616469,
+  "note": "boss room heart container",
+  "mode": "actor"
+ },
+ "RC_GRAVEYARD_DAMPE_RACE_FREESTANDING_POH": {
+  "folder": "Graveyard",
+  "hash": 5534919361313859554,
+  "note": "Dampe race goal chest holding the PoH (remake made it a chest)",
+  "keep_event": true
+ },
+ "RC_GRAVEYARD_HEART_PIECE_GRAVE_CHEST": {
+  "folder": "Graveyard",
+  "hash": 9622128545943056087,
+  "note": "chest holding PoH with heart-piece map icon"
+ },
+ "RC_SPIRIT_TEMPLE_SILVER_GAUNTLETS_CHEST": {
+  "folder": "DesertColossus",
+  "hash": 2490063409521505179,
+  "note": "statue hand chest outside, Nabooru cutscene kept",
+  "keep_event": true
+ },
+ "RC_SPIRIT_TEMPLE_MIRROR_SHIELD_CHEST": {
+  "folder": "DesertColossus",
+  "hash": 10012167258643363548,
+  "note": "statue hand chest outside"
+ },
+ "RC_FOREST_TEMPLE_FIRST_ROOM_CHEST": {
+  "folder": "ForestTemple",
+  "hash": 1171460703078800858,
+  "note": "room 0 (entrance) key chest"
+ },
+ "RC_FOREST_TEMPLE_WELL_CHEST": {
+  "folder": "ForestTemple",
+  "hash": 6449977980406424425,
+  "note": "lowest key chest (y 88, room 15): the well"
+ },
+ "RC_GERUDO_TRAINING_GROUND_LOBBY_LEFT_CHEST": {
+  "folder": "GerudoTrainingGround",
+  "hash": 2436665354602612279,
+  "note": "room 0, the lobby blue chest"
+ },
+ "RC_GERUDO_TRAINING_GROUND_HEAVY_BLOCK_FIRST_CHEST": {
+  "folder": "GerudoTrainingGround",
+  "hash": 5329807728555596183,
+  "note": "room 10 cluster of 4 = like-like room (one logic region)"
+ },
+ "RC_GERUDO_TRAINING_GROUND_HEAVY_BLOCK_SECOND_CHEST": {
+  "folder": "GerudoTrainingGround",
+  "hash": 3750231902048775592,
+  "note": "room 10 cluster of 4 = like-like room (one logic region)"
+ },
+ "RC_GERUDO_TRAINING_GROUND_HEAVY_BLOCK_THIRD_CHEST": {
+  "folder": "GerudoTrainingGround",
+  "hash": 6897789835137994741,
+  "note": "room 10 cluster of 4 = like-like room (one logic region)"
+ },
+ "RC_GERUDO_TRAINING_GROUND_HEAVY_BLOCK_FOURTH_CHEST": {
+  "folder": "GerudoTrainingGround",
+  "hash": 11754783663699171680,
+  "note": "room 10 cluster of 4 = like-like room (one logic region)"
+ },
+ "RC_GANONS_CASTLE_SPIRIT_TRIAL_CRYSTAL_SWITCH_CHEST": {
+  "folder": "InsideGanonCastle",
+  "hash": 14404733996390762670,
+  "note": "the bombchu chest (room 5)"
+ },
+ "RC_GANONS_CASTLE_SHADOW_TRIAL_GOLDEN_GAUNTLETS_CHEST": {
+  "folder": "InsideGanonCastle",
+  "hash": 17657623307936361670,
+  "note": "golden gauntlets chest"
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_KEY_1": {
+  "folder": "Market",
+  "hash": 1775586642693927992,
+  "note": "room 1 (x order), \"hit\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_ITEM_1": {
+  "folder": "Market",
+  "hash": 7390716194495618474,
+  "note": "room 1, \"miss\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_KEY_2": {
+  "folder": "Market",
+  "hash": 5350594583391365806,
+  "note": "room 2 (x order), \"hit\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_ITEM_2": {
+  "folder": "Market",
+  "hash": 12114077686306649660,
+  "note": "room 2, \"miss\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_KEY_3": {
+  "folder": "Market",
+  "hash": 12763522142548402103,
+  "note": "room 3 (x order), \"hit\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_ITEM_3": {
+  "folder": "Market",
+  "hash": 9591654059707200528,
+  "note": "room 3, \"miss\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_KEY_4": {
+  "folder": "Market",
+  "hash": 6478285350658826847,
+  "note": "room 4 (x order), \"hit\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_ITEM_4": {
+  "folder": "Market",
+  "hash": 13633455645485504369,
+  "note": "room 4, \"miss\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_KEY_5": {
+  "folder": "Market",
+  "hash": 18239509117326156183,
+  "note": "room 5 (x order), \"hit\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_ITEM_5": {
+  "folder": "Market",
+  "hash": 15659683110284072977,
+  "note": "room 5, \"miss\" chest",
+  "keep_event": true
+ },
+ "RC_MARKET_TREASURE_CHEST_GAME_REWARD": {
+  "folder": "Market",
+  "hash": 16881481538337649070,
+  "note": "final chest, first-clear version (heart piece)",
+  "keep_event": true
+ },
+ "RC_SHADOW_TEMPLE_INVISIBLE_BLADES_INVISIBLE_CHEST": {
+  "folder": "ShadowTemple",
+  "hash": 169081039115821925,
+  "note": "room 16 lens chest"
+ },
+ "RC_SHADOW_TEMPLE_INVISIBLE_BLADES_VISIBLE_CHEST": {
+  "folder": "ShadowTemple",
+  "hash": 5681107746948738726,
+  "note": "room 16 normal chest"
+ },
+ "RC_SPIRIT_TEMPLE_HALLWAY_LEFT_INVISIBLE_CHEST": {
+  "folder": "SpiritTemple",
+  "hash": 14040210993541550542,
+  "note": "room 23 lens pair"
+ },
+ "RC_SPIRIT_TEMPLE_HALLWAY_RIGHT_INVISIBLE_CHEST": {
+  "folder": "SpiritTemple",
+  "hash": 9143177002861777924,
+  "note": "room 23 lens pair"
+ },
+ "RC_WATER_TEMPLE_LONGSHOT_CHEST": {
+  "folder": "WaterTemple",
+  "hash": 18059711820131847165,
+  "note": "longshot chest"
+ },
+ "RC_LW_NEAR_SHORTCUTS_GROTTO_CHEST": {
+  "folder": "LostWood",
+  "hash": 17479747339356189279,
+  "note": "guess: the only chest in Lost Woods"
+ }
+}

@@ -1,0 +1,20 @@
+# fetched sources (tools/fetch_deps.sh) and build output (tools/build_gen.sh)
+/soh-src/
+/lus/
+/deps/
+/build/
+# your setup, seeds, installed mod and saves
+/config.json
+/seeds/
+/mods/
+/saves/
+/out/
+/settings/ui_settings.json
+/settings/ui_last_run.json
+# data extracted from your game dump or generated from SoH (re-made by the tools)
+/remake_checks.json
+/remake_grants.json
+/soh_locations.json
+/data/unmatched.txt
+__pycache__/
+*.pyc

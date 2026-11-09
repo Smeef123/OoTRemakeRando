@@ -1,0 +1,491 @@
+{
+ "RC_SONG_FROM_SARIA": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Saria"
+  ],
+  "items": [
+   "Item_Melody_SariaSong"
+  ]
+ },
+ "RC_SONG_FROM_IMPA": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Zelda"
+  ],
+  "items": [
+   "Item_Melody_ZeldaLullaby"
+  ]
+ },
+ "RC_SONG_FROM_MALON": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Epona"
+  ],
+  "items": [
+   "Item_Melody_EponaSong"
+  ]
+ },
+ "RC_SONG_FROM_ROYAL_FAMILYS_TOMB": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Sun_03"
+  ],
+  "items": [
+   "Item_Melody_SunSong"
+  ]
+ },
+ "RC_SONG_FROM_OCARINA_OF_TIME": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Time"
+  ],
+  "items": [
+   "Item_Melody_TimeSong"
+  ]
+ },
+ "RC_HF_OCARINA_OF_TIME_ITEM": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Time"
+  ],
+  "items": [
+   "Item_Ocarina_Time"
+  ]
+ },
+ "RC_SONG_FROM_WINDMILL": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Storm"
+  ],
+  "items": [
+   "Item_Melody_StormSong"
+  ]
+ },
+ "RC_SHEIK_IN_FOREST": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Forest"
+  ],
+  "items": [
+   "Item_Melody_ForestMinuet"
+  ]
+ },
+ "RC_SHEIK_IN_CRATER": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Fire"
+  ],
+  "items": [
+   "Item_Melody_FireBolero"
+  ]
+ },
+ "RC_SHEIK_IN_ICE_CAVERN": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Water"
+  ],
+  "items": [
+   "Item_Melody_WaterSerenade"
+  ]
+ },
+ "RC_SHEIK_AT_COLOSSUS": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Spilit"
+  ],
+  "items": [
+   "Item_Melody_SpiritRequiem"
+  ]
+ },
+ "RC_SHEIK_IN_KAKARIKO": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Shadow"
+  ],
+  "items": [
+   "Item_Melody_ShadowNocturne"
+  ]
+ },
+ "RC_SHEIK_AT_TEMPLE": {
+  "mode": "event",
+  "files": [
+   "Dm_MelodyGet_Shine"
+  ],
+  "items": [
+   "Item_Melody_LightPrelude"
+  ]
+ },
+ "RC_LH_SCARECROWS_SONG": {
+  "mode": "event",
+  "files": [
+   "Npc_Bonooru"
+  ],
+  "items": [
+   "Item_Melody_ScarecrowSong"
+  ]
+ },
+ "RC_QUEEN_GOHMA": {
+  "mode": "event",
+  "files": [
+   "Dm_Kokiri_0130"
+  ],
+  "items": [
+   "Item_Stone_Forest"
+  ]
+ },
+ "RC_KING_DODONGO": {
+  "mode": "event",
+  "files": [
+   "Dm_DeathMtTrail_0025"
+  ],
+  "items": [
+   "Item_Stone_Fire"
+  ]
+ },
+ "RC_BARINADE": {
+  "mode": "event",
+  "files": [
+   "Dm_ZoraFountain_0030",
+   "Dm_InsideJabu_Jabu_0030",
+   "Dm_InsideJabu_Jabu_0030.110"
+  ],
+  "items": [
+   "Item_Stone_Water"
+  ]
+ },
+ "RC_PHANTOM_GANON": {
+  "mode": "event",
+  "files": [
+   "Dm_Awake_Forest_Get",
+   "Dm_Awake_Forest_Get.110"
+  ],
+  "items": [
+   "Item_Medal_Forest"
+  ]
+ },
+ "RC_VOLVAGIA": {
+  "mode": "event",
+  "files": [
+   "Dm_Awake_Fire_Get",
+   "Dm_Awake_Fire_Get.110"
+  ],
+  "items": [
+   "Item_Medal_Fire"
+  ]
+ },
+ "RC_MORPHA": {
+  "mode": "event",
+  "files": [
+   "Dm_Awake_Water_Get",
+   "Dm_Awake_Water_Get.110"
+  ],
+  "items": [
+   "Item_Medal_Water"
+  ]
+ },
+ "RC_BONGO_BONGO": {
+  "mode": "event",
+  "files": [
+   "Dm_Awake_Shadow_Get",
+   "Dm_Awake_Shadow_Get.110"
+  ],
+  "items": [
+   "Item_Medal_Shadow"
+  ]
+ },
+ "RC_TWINROVA": {
+  "mode": "event",
+  "files": [
+   "Dm_Awake_Spirit_Get",
+   "Dm_Awake_Spirit_Get.110"
+  ],
+  "items": [
+   "Item_Medal_Spirit"
+  ]
+ },
+ "RC_GIFT_FROM_RAURU": {
+  "mode": "event",
+  "files": [
+   "Dm_SageRoom_0005"
+  ],
+  "items": [
+   "Item_Medal_Light"
+  ]
+ },
+ "RC_HC_GREAT_FAIRY_REWARD": {
+  "mode": "event",
+  "files": [
+   "Dm_FairyFountain_Din"
+  ],
+  "items": [
+   "Item_DinFire"
+  ]
+ },
+ "RC_ZF_GREAT_FAIRY_REWARD": {
+  "mode": "event",
+  "files": [
+   "Dm_FairyFountain_Frore"
+  ],
+  "items": [
+   "Item_FaroreWind"
+  ]
+ },
+ "RC_COLOSSUS_GREAT_FAIRY_REWARD": {
+  "mode": "event",
+  "files": [
+   "Dm_FairyFountain_Nayru"
+  ],
+  "items": [
+   "Item_NayruLove"
+  ]
+ },
+ "RC_DMT_GREAT_FAIRY_REWARD": {
+  "mode": "event",
+  "files": [
+   "Dm_FairyFountain_Power"
+  ],
+  "items": [
+   "Item_FairyBless_MP"
+  ]
+ },
+ "RC_DMC_GREAT_FAIRY_REWARD": {
+  "mode": "event",
+  "files": [
+   "Dm_FairyFountain_Wisdom"
+  ],
+  "items": [
+   "Item_FairyBless_MPDouble"
+  ]
+ },
+ "RC_OGC_GREAT_FAIRY_REWARD": {
+  "mode": "event",
+  "files": [
+   "Dm_FairyFountain_Courage"
+  ],
+  "items": [
+   "Item_FairyBless_DefenseDouble"
+  ]
+ },
+ "RC_LW_GIFT_FROM_SARIA": {
+  "mode": "event",
+  "files": [
+   "Dm_Kokiri_0155"
+  ],
+  "items": [
+   "Item_Ocarina_Fairy"
+  ]
+ },
+ "RC_HC_ZELDAS_LETTER": {
+  "mode": "event",
+  "files": [
+   "Dm_HrlCastle_0050"
+  ],
+  "items": [
+   "Item_ZeldaLetter"
+  ]
+ },
+ "RC_HC_MALON_EGG": {
+  "mode": "event",
+  "files": [
+   "Goto_HyruleCastle"
+  ],
+  "items": [
+   "Item_WeirdEgg"
+  ]
+ },
+ "RC_GC_DARUNIAS_JOY": {
+  "mode": "event",
+  "files": [
+   "Dm_Goron_0030"
+  ],
+  "items": [
+   "Item_Gauntlet_Goron"
+  ]
+ },
+ "RC_TH_FREED_CARPENTERS": {
+  "mode": "event",
+  "files": [
+   "Dm_Gerudo_0025"
+  ],
+  "items": [
+   "Item_Token_Gerudo"
+  ]
+ },
+ "RC_TOT_LIGHT_ARROWS_CUTSCENE": {
+  "mode": "event",
+  "files": [
+   "Dm_TimeTemple_0130"
+  ],
+  "items": [
+   "Item_Arrow_Light"
+  ]
+ },
+ "RC_LW_TARGET_IN_WOODS": {
+  "mode": "event",
+  "files": [
+   "Dm_LostWood_0040"
+  ],
+  "items": [
+   "Item_BulletBag_Medium",
+   "Item_BulletBag_Large"
+  ]
+ },
+ "RC_DEKU_THEATER_SKULL_MASK": {
+  "mode": "event",
+  "files": [
+   "LostWood_ScrubForestStageElder_SkullMaskFirst"
+  ],
+  "items": [
+   "Item_StickBag_Medium",
+   "Item_StickBag_Large"
+  ]
+ },
+ "RC_DEKU_THEATER_MASK_OF_TRUTH": {
+  "mode": "event",
+  "files": [
+   "LostWood_ScrubForestStageElder_TrueMaskFirst"
+  ],
+  "items": [
+   "Item_NutBag_Medium",
+   "Item_NutBag_Large"
+  ]
+ },
+ "RC_ZD_DIVING_MINIGAME": {
+  "mode": "event",
+  "files": [
+   "MiniGame_Diving"
+  ],
+  "items": [
+   "Item_Scale_Silver"
+  ]
+ },
+ "RC_LH_ADULT_FISHING": {
+  "mode": "event",
+  "files": [
+   "MiniGame_Fishing"
+  ],
+  "items": [
+   "Item_Scale_Gold"
+  ]
+ },
+ "RC_LH_CHILD_FISHING": {
+  "mode": "event",
+  "files": [
+   "MiniGame_Fishing"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_GF_HBA_1000_POINTS": {
+  "mode": "event",
+  "files": [
+   "Minigame_HorsebackArchery"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_GF_HBA_1500_POINTS": {
+  "mode": "event",
+  "files": [
+   "Minigame_HorsebackArchery"
+  ],
+  "items": [
+   "Item_Quiver_Medium",
+   "Item_Quiver_Large"
+  ]
+ },
+ "RC_LW_SKULL_KID": {
+  "mode": "event",
+  "files": [
+   "Npc_SkullKid_Child"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_KAK_MAN_ON_ROOF": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_001_Adult"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_GRAVEYARD_DAMPE_GRAVEDIGGING_TOUR": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_Dampe_001",
+   "Npc_Hylia_Dampe_001.110"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_ZR_MAGIC_BEAN_SALESMAN": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_047_Child"
+  ],
+  "items": [
+   "Item_MagicBean"
+  ]
+ },
+ "RC_LLR_TALONS_CHICKENS": {
+  "mode": "event",
+  "files": [
+   "Minigame_FindOutCucco"
+  ],
+  "items": [
+   "Item_Bottle_Milk"
+  ]
+ },
+ "RC_LW_TRADE_ODD_POTION": {
+  "mode": "event",
+  "files": [
+   "Npc_Kokiri_Fado_Adult"
+  ],
+  "items": [
+   "Item_PoacherSaw"
+  ]
+ },
+ "RC_ZD_TRADE_PRESCRIPTION": {
+  "mode": "event",
+  "files": [
+   "Npc_Zora_KingZora_adult"
+  ],
+  "items": [
+   "Item_EyeballFrog"
+  ]
+ },
+ "RC_DMT_TRADE_BROKEN_SWORD": {
+  "mode": "event",
+  "files": [
+   "Npc_Goron_Biggoron_Adult"
+  ],
+  "items": [
+   "Item_Prescription"
+  ]
+ },
+ "RC_DMT_TRADE_CLAIM_CHECK": {
+  "mode": "event",
+  "files": [
+   "Npc_Goron_Biggoron_Adult"
+  ],
+  "items": [
+   "Item_Sword_Biggoron"
+  ]
+ },
+ "RC_DMT_TRADE_EYEDROPS": {
+  "mode": "event",
+  "files": [
+   "Dm_DeathMtTrail_0050"
+  ],
+  "items": [
+   "Item_ClaimCheck"
+  ]
+ }
+}

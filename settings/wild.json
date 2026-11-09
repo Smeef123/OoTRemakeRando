@@ -1,0 +1,18 @@
+{
+ "gRandoSettings.ShuffleSongs": 3,
+ "gRandoSettings.ShuffleDungeonReward": 5,
+ "gRandoSettings.Keysanity": 5,
+ "gRandoSettings.BossKeysanity": 5,
+ "gRandoSettings.StartingMapsCompasses": 5,
+ "gRandoSettings.ShuffleTokens": 3,
+ "gRandoSettings.ShuffleScrubs": 2,
+ "gRandoSettings.ShuffleCows": 1,
+ "gRandoSettings.ShufflePots": 3,
+ "gRandoSettings.ShuffleKokiriSword": 1,
+ "gRandoSettings.ShuffleOcarinas": 1,
+ "gRandoSettings.ShuffleAdultTrade": 1,
+ "gRandoSettings.ShuffleWeirdEgg": 1,
+ "gRandoSettings.ShuffleZeldasLetter": 1,
+ "gRandoSettings.Shopsanity": 2,
+ "gRandoSettings.StartingKokiriSword": 1
+}
