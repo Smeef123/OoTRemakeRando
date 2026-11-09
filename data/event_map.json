@@ -487,5 +487,223 @@
   "items": [
    "Item_ClaimCheck"
   ]
+ },
+ "RC_LW_OCARINA_MEMORY_GAME": {
+  "mode": "event",
+  "files": [
+   "Npc_SkullKid_Child_02"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_MARKET_BOMBCHU_BOWLING_FIRST_PRIZE": {
+  "mode": "event",
+  "files": [
+   "MiniGame_BombchuBowling"
+  ],
+  "items": [
+   "Item_BombBag_Medium",
+   "Item_BombBag_Large"
+  ]
+ },
+ "RC_MARKET_BOMBCHU_BOWLING_SECOND_PRIZE": {
+  "mode": "event",
+  "files": [
+   "MiniGame_BombchuBowling"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_MARKET_SHOOTING_GALLERY_REWARD": {
+  "mode": "event",
+  "files": [
+   "MiniGame_HitTarget"
+  ],
+  "items": [
+   "Item_BulletBag_Medium",
+   "Item_BulletBag_Large"
+  ]
+ },
+ "RC_KAK_SHOOTING_GALLERY_REWARD": {
+  "mode": "event",
+  "files": [
+   "MiniGame_HitTarget"
+  ],
+  "items": [
+   "Item_Quiver_Medium",
+   "Item_Quiver_Large"
+  ]
+ },
+ "RC_ZR_FROGS_OCARINA_GAME": {
+  "mode": "event",
+  "files": [
+   "MiniGame_FrogTenors"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ],
+  "events": [
+   "Event161",
+   "Event75"
+  ]
+ },
+ "RC_ZR_FROGS_IN_THE_RAIN": {
+  "mode": "event",
+  "files": [
+   "MiniGame_FrogTenors"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ],
+  "events": [
+   "Event384"
+  ]
+ },
+ "RC_LH_LAB_DIVE": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_045_Child"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_MARKET_LOST_DOG": {
+  "mode": "event",
+  "files": [
+   "SubEvent_FindRichard"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_KAK_10_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Item_Wallet_Medium"
+  ]
+ },
+ "RC_KAK_20_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Item_AgonyStone"
+  ]
+ },
+ "RC_KAK_30_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Item_Wallet_Large"
+  ]
+ },
+ "RC_KAK_40_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Item_BombchuBundle_Large"
+  ]
+ },
+ "RC_KAK_50_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ]
+ },
+ "RC_KAK_100_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Obj_Rupee_Gold"
+  ]
+ },
+ "RC_MARKET_10_BIG_POES": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_048_BottleShop"
+  ],
+  "items": [
+   "Item_Bottle"
+  ]
+ },
+ "RC_KAK_ANJU_AS_CHILD": {
+  "mode": "event",
+  "files": [
+   "Minigame_CatchCucco"
+  ],
+  "items": [
+   "Item_Bottle"
+  ]
+ },
+ "RC_GC_ROLLING_GORON_AS_CHILD": {
+  "mode": "event",
+  "files": [
+   "Npc_Goron_006_Child"
+  ],
+  "items": [
+   "Item_BombBag_Medium",
+   "Item_BombBag_Large"
+  ]
+ },
+ "RC_KAK_TRADE_POCKET_CUCCO": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_049_Adult"
+  ],
+  "items": [
+   "Item_CojiroCucco"
+  ]
+ },
+ "RC_LW_TRADE_COJIRO": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_017_Adult"
+  ],
+  "items": [
+   "Item_OddMushroom"
+  ]
+ },
+ "RC_KAK_TRADE_ODD_MUSHROOM": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_053_Adult"
+  ],
+  "items": [
+   "Item_OddPowder"
+  ]
+ },
+ "RC_GV_TRADE_SAW": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_012_Adult"
+  ],
+  "items": [
+   "Item_BrokenSword"
+  ]
+ },
+ "RC_LH_TRADE_FROG": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_045_Adult"
+  ],
+  "items": [
+   "Item_EyeDrop"
+  ]
  }
 }

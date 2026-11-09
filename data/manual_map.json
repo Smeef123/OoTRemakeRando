@@ -317,5 +317,39 @@
   "folder": "LostWood",
   "hash": 17479747339356189279,
   "note": "guess: the only chest in Lost Woods"
+ },
+ "RC_KAK_WINDMILL_FREESTANDING_POH": {
+  "folder": "KakarikoVillage",
+  "hash": 13389209437182306002,
+  "note": "next to the windmill (1,105,44)",
+  "mode": "actor"
+ },
+ "RC_KAK_IMPAS_HOUSE_FREESTANDING_POH": {
+  "folder": "KakarikoVillage",
+  "hash": 17926402522258180222,
+  "note": "next to the cow at (-47,105,115): Impa's house back",
+  "mode": "actor"
+ },
+ "RC_LLR_FREESTANDING_POH": {
+  "folder": "HyruleField",
+  "hash": 9814903750835309225,
+  "note": "child-only file, as SoH logic (child only); high (y 151): the tower",
+  "mode": "actor"
+ },
+ "RC_GV_CRATE_FREESTANDING_POH": {
+  "folder": "GerudoValley",
+  "hash": 16129198288828948135,
+  "note": "Obj_GerudoValley_Heart_Piece: the crate one",
+  "mode": "actor"
+ },
+ "RC_GV_WATERFALL_FREESTANDING_POH": {
+  "folder": "GerudoValley",
+  "hash": 15856256242099990922,
+  "note": "the other GV heart piece, a chest in the remake (SoH logic: free)"
+ },
+ "RC_HF_TEKTITE_GROTTO_FREESTANDING_POH": {
+  "folder": "HyruleField",
+  "hash": 2967378296224661060,
+  "note": "guess: the only other HF heart-piece spot (chest \"memo11\")"
  }
 }

@@ -463,6 +463,54 @@
   "mode": "drop",
   "keep_event": false
  },
+ "RC_KAK_WINDMILL_FREESTANDING_POH": {
+  "folder": "KakarikoVillage",
+  "hash": 13389209437182306002,
+  "how": "manual",
+  "note": "next to the windmill (1,105,44)",
+  "mode": "actor",
+  "keep_event": false
+ },
+ "RC_KAK_IMPAS_HOUSE_FREESTANDING_POH": {
+  "folder": "KakarikoVillage",
+  "hash": 17926402522258180222,
+  "how": "manual",
+  "note": "next to the cow at (-47,105,115): Impa's house back",
+  "mode": "actor",
+  "keep_event": false
+ },
+ "RC_LLR_FREESTANDING_POH": {
+  "folder": "HyruleField",
+  "hash": 9814903750835309225,
+  "how": "manual",
+  "note": "child-only file, as SoH logic (child only); high (y 151): the tower",
+  "mode": "actor",
+  "keep_event": false
+ },
+ "RC_GV_CRATE_FREESTANDING_POH": {
+  "folder": "GerudoValley",
+  "hash": 16129198288828948135,
+  "how": "manual",
+  "note": "Obj_GerudoValley_Heart_Piece: the crate one",
+  "mode": "actor",
+  "keep_event": false
+ },
+ "RC_GV_WATERFALL_FREESTANDING_POH": {
+  "folder": "GerudoValley",
+  "hash": 15856256242099990922,
+  "how": "manual",
+  "note": "the other GV heart piece, a chest in the remake (SoH logic: free)",
+  "mode": "drop",
+  "keep_event": false
+ },
+ "RC_HF_TEKTITE_GROTTO_FREESTANDING_POH": {
+  "folder": "HyruleField",
+  "hash": 2967378296224661060,
+  "how": "manual",
+  "note": "guess: the only other HF heart-piece spot (chest \"memo11\")",
+  "mode": "drop",
+  "keep_event": false
+ },
  "RC_SONG_FROM_SARIA": {
   "mode": "event",
   "files": [
@@ -1002,6 +1050,247 @@
   ],
   "items": [
    "Item_ClaimCheck"
+  ],
+  "how": "event"
+ },
+ "RC_LW_OCARINA_MEMORY_GAME": {
+  "mode": "event",
+  "files": [
+   "Npc_SkullKid_Child_02"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ],
+  "how": "event"
+ },
+ "RC_MARKET_BOMBCHU_BOWLING_FIRST_PRIZE": {
+  "mode": "event",
+  "files": [
+   "MiniGame_BombchuBowling"
+  ],
+  "items": [
+   "Item_BombBag_Medium",
+   "Item_BombBag_Large"
+  ],
+  "how": "event"
+ },
+ "RC_MARKET_BOMBCHU_BOWLING_SECOND_PRIZE": {
+  "mode": "event",
+  "files": [
+   "MiniGame_BombchuBowling"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ],
+  "how": "event"
+ },
+ "RC_MARKET_SHOOTING_GALLERY_REWARD": {
+  "mode": "event",
+  "files": [
+   "MiniGame_HitTarget"
+  ],
+  "items": [
+   "Item_BulletBag_Medium",
+   "Item_BulletBag_Large"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_SHOOTING_GALLERY_REWARD": {
+  "mode": "event",
+  "files": [
+   "MiniGame_HitTarget"
+  ],
+  "items": [
+   "Item_Quiver_Medium",
+   "Item_Quiver_Large"
+  ],
+  "how": "event"
+ },
+ "RC_ZR_FROGS_OCARINA_GAME": {
+  "mode": "event",
+  "files": [
+   "MiniGame_FrogTenors"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ],
+  "events": [
+   "Event161",
+   "Event75"
+  ],
+  "how": "event"
+ },
+ "RC_ZR_FROGS_IN_THE_RAIN": {
+  "mode": "event",
+  "files": [
+   "MiniGame_FrogTenors"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ],
+  "events": [
+   "Event384"
+  ],
+  "how": "event"
+ },
+ "RC_LH_LAB_DIVE": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_045_Child"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ],
+  "how": "event"
+ },
+ "RC_MARKET_LOST_DOG": {
+  "mode": "event",
+  "files": [
+   "SubEvent_FindRichard"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_10_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Item_Wallet_Medium"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_20_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Item_AgonyStone"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_30_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Item_Wallet_Large"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_40_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Item_BombchuBundle_Large"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_50_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Obj_Heart_Piece"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_100_GOLD_SKULLTULA_REWARD": {
+  "mode": "event",
+  "files": [
+   "GatheringTokenGold"
+  ],
+  "items": [
+   "Obj_Rupee_Gold"
+  ],
+  "how": "event"
+ },
+ "RC_MARKET_10_BIG_POES": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_048_BottleShop"
+  ],
+  "items": [
+   "Item_Bottle"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_ANJU_AS_CHILD": {
+  "mode": "event",
+  "files": [
+   "Minigame_CatchCucco"
+  ],
+  "items": [
+   "Item_Bottle"
+  ],
+  "how": "event"
+ },
+ "RC_GC_ROLLING_GORON_AS_CHILD": {
+  "mode": "event",
+  "files": [
+   "Npc_Goron_006_Child"
+  ],
+  "items": [
+   "Item_BombBag_Medium",
+   "Item_BombBag_Large"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_TRADE_POCKET_CUCCO": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_049_Adult"
+  ],
+  "items": [
+   "Item_CojiroCucco"
+  ],
+  "how": "event"
+ },
+ "RC_LW_TRADE_COJIRO": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_017_Adult"
+  ],
+  "items": [
+   "Item_OddMushroom"
+  ],
+  "how": "event"
+ },
+ "RC_KAK_TRADE_ODD_MUSHROOM": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_053_Adult"
+  ],
+  "items": [
+   "Item_OddPowder"
+  ],
+  "how": "event"
+ },
+ "RC_GV_TRADE_SAW": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_012_Adult"
+  ],
+  "items": [
+   "Item_BrokenSword"
+  ],
+  "how": "event"
+ },
+ "RC_LH_TRADE_FROG": {
+  "mode": "event",
+  "files": [
+   "Npc_Hylia_045_Adult"
+  ],
+  "items": [
+   "Item_EyeDrop"
   ],
   "how": "event"
  },

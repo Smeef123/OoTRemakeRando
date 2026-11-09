@@ -56,9 +56,10 @@ KEEP_EVENTS = ('NaviChatOff',)
 FREESTANDING = {'TBox_Rupee_Green': 'Obj_Rupee_Green', 'TBox_Rupee_Blue': 'Obj_Rupee_Blue',
                 'TBox_Rupee_Red': 'Obj_Rupee_Red', 'TBox_Rupee_Purple': 'Obj_Rupee_Purple',
                 'TBox_Rupee_Gold': 'Obj_Rupee_Gold', 'TBox_ArrowBundle_Small': 'Obj_ArrowBundle_Small',
-                'TBox_ArrowBundle_Medium': 'Obj_ArrowBundle_Small', 'TBox_ArrowBundle_Large': 'Obj_ArrowBundle_Small',
+                'TBox_ArrowBundle_Medium': 'Obj_ArrowBundle_Medium', 'TBox_ArrowBundle_Large': 'Obj_ArrowBundle_Large',
+                'TBox_Shield_Deku': 'Weapon_Shield_Deku', 'TBox_Shield_Hylian': 'Weapon_Shield_Hylian',
                 'TBox_DekuNutBundle': 'Item_DekuNut', 'TBox_DekuSeedBundle': 'Item_DekuSeed',
-                'Tbox_MagicJar_Large': 'Obj_MagicJar_Small'}
+                'Tbox_MagicJar_Large': 'Obj_MagicJar_Large'}
 changed_files, report = {}, []
 by_folder = collections.defaultdict(dict)
 for (folder, h), v in want.items():
@@ -98,6 +99,9 @@ for folder, items in by_folder.items():
 
 # event flows: the grant's ActorName parameter becomes the seed's item
 import io, evfl  # noqa: E402
+# parameters through which a step hands Link an item: the give sub-flows (ActorName), NPC hand-overs (ReveiveItem, the
+# game's spelling), reward scenes (TakenRewardActor), and the direct pouch add (Actor, when Num > 0)
+GRANT_KEYS = ('ActorName', 'ReveiveItem', 'TakenRewardActor', 'Actor')
 by_flow = collections.defaultdict(list)
 for m, actor, r in events:
     for f in m['files']:
@@ -109,13 +113,21 @@ for flow, lst in by_flow.items():
     hit = 0
     for e in ef.flowchart.events:
         d = e.data
-        if not isinstance(d, evfl.event.SubFlowEvent) or not d.params: continue
-        an = d.params.data.get('ActorName')
-        for m, actor, r in lst:
-            if an in m['items']:
-                d.params.data['ActorName'] = actor
-                hit += 1
-                report.append({'check': r['check'], 'item': r['item'], 'actor': actor, 'was': an, 'file': rel})
+        ps = getattr(d, 'params', None)
+        if not ps: continue
+        act = getattr(d, 'actor', None); aa = getattr(d, 'actor_action', None)
+        action = f'{act.v.identifier.name}.{aa.v.v}' if act and aa else ''
+        if getattr(d, 'actor_query', None) is not None and not aa: continue  # a question ("has the item?"), not a give
+        for key in GRANT_KEYS:
+            an = ps.data.get(key)
+            if not isinstance(an, str): continue
+            if key == 'Actor' and not (action.endswith('AddOrRemovePouchContent') and ps.data.get('Num', 1) > 0): continue
+            for m, actor, r in lst:
+                if an in m['items'] and (not m.get('events') or e.name in m['events']):
+                    ps.data[key] = actor
+                    hit += 1
+                    report.append({'check': r['check'], 'item': r['item'], 'actor': actor, 'was': an, 'file': rel})
+                    break
     if not hit:
         problems.append(f'{rel}: no grant of {[x[0]["items"] for x in lst]} found')
         continue
