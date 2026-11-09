@@ -83,5 +83,3 @@ ALLOWED = {S + 'GossipStoneHints': [0, 1],   # stones that need the Mask of Trut
            S + 'ShuffleWeirdEgg': [0, 1],    # "Skip Waking Talon" changes the game
            S + 'StartingMapsCompasses': [1, 2, 3, 4, 5], S + 'Keysanity': [1, 2, 3, 4, 5],
            S + 'BossKeysanity': [1, 2, 3, 4, 5]}  # "Start With" needs a start-of-game grant
-# the project owner's choice: every seed starts with the Bunny Hood (given in Saria's first scene)
-FORCED[S + 'StartingBunnyHood'] = 1
