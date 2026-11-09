@@ -181,6 +181,29 @@ if flags_off:
     assert all(rows[mmh3.hash(n, signed=False)]['DefaultValue'] is False for n in flags_off if not any(n in p for p in problems))
     changed_files[gd_rel] = bytes(raw)
 
+# starting items: the game's own item-give step (GetPouchContent) at the start of Saria's one-time scene in front of
+# Link's house, the first scene of every new game after Link gains control
+START = {'gRandoSettings.StartingBunnyHood': 'Armor_Child_Mask_Bunny'}
+start_items = [a for k, a in START.items() if settings.get(k)]
+if start_items:
+    rel = 'Event/EventFlow/Npc_Kokiri_Saria_Child.bfevfl.zs'
+    ef = evfl.EventFlow(); ef.read(zs.decompress_any(romfs, open(os.path.join(romfs, rel), 'rb').read()))
+    fc = ef.flowchart
+    ep = next(e for e in fc.entry_points if e.name == 'KokiriForest_StopInFrontOfLinkHouse')
+    nxt = ep.main_event.v
+    for n, actor in enumerate(reversed(start_items)):
+        ev = evfl.event.Event(); ev.name = f'RandoStartItem{n}'
+        d = evfl.event.SubFlowEvent(); d.res_flowchart_name = 'GetPouchContent'
+        d.entry_point_name = 'GetPouchContentByActorName'
+        d.params = evfl.container.Container(); d.params.data['ActorName'] = actor
+        d.nxt.v = nxt; ev.data = d
+        fc.events.append(ev); ep._sub_flow_event_indices.append(len(fc.events) - 1)
+        nxt = ev
+        report.append({'check': 'start item', 'item': actor, 'actor': actor, 'was': '', 'file': rel})
+    ep.main_event.v = nxt
+    b = io.BytesIO(); ef.write(b); changed_files[rel] = b.getvalue()
+    chk = evfl.EventFlow(); chk.read(changed_files[rel])  # must read back
+
 dst = os.path.join(mods, mod_name, 'romfs')
 if os.path.isdir(dst):
     for f in glob.glob(os.path.join(dst, '*', '**', '*.zs'), recursive=True):

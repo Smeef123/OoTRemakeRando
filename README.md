@@ -10,6 +10,7 @@ You get:
 - a seed (type one or roll a random one) that is installed into the game as a mod;
 - a spoiler log that lists where everything is, and gossip stone hints in game;
 - a separate save folder, so randomizer saves don't mix with your normal ones.
+- Link starts every seed with the **Bunny Hood** (Saria hands it over in her first scene).
 
 ## What you need
 - **Windows 10 or 11.**
@@ -67,6 +68,7 @@ Every other check keeps its normal item, and the randomizer's logic knows that.
 - Shops, Deku Scrubs, Gold Skulltula rewards, cows, frogs, bombchu bowling and the shooting galleries are not shuffled.
 - Upgrades (Hookshot → Longshot, bomb bags, ...) are fixed when the seed is installed, in the order the spoiler log
   expects you to find them; Ship of Harkinian decides when you pick them up.
+- The Bunny Hood is cosmetic for now: a speed boost while wearing it needs a change to Hookshot's code (planned).
 - Hints are English only, and a hint may be on a different stone of the same area than in Ship of Harkinian.
 - Tested in game: chest items (bomb bag and ice arrows from Mido's chests). Songs, gifts, swapped heart pieces, hints
   and Closed Forest have been tested as far as generating, installing and starting the game, not yet in play.
