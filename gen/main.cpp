@@ -130,6 +130,7 @@ int main(int argc, char** argv) {
         row["rg"] = rg;
         row["rg_enum"] = std::string(EnumToString(rg));
         row["vanilla_rg"] = loc->GetVanillaItem();
+        row["price"] = il->GetPrice();
         out["placements"].push_back(row);
     }
     std::ofstream(gOutDir + "/placement.json") << out.dump(1);

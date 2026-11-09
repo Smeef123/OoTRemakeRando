@@ -32,6 +32,7 @@ rows.sort(key=lambda r: order.get(r['check'], 10 ** 6))
 level = collections.Counter()
 want = {}  # (folder, hash) -> (actor, row)
 events = []  # (event_map entry, actor, row)
+shop_rows = []  # (check_map entry, actor, row) for shop slots that change
 problems = []
 for r in rows:
     rg = r['rg_enum']
@@ -41,10 +42,14 @@ for r in rows:
         actor = PROGRESSIVE[rg][min(lv, len(PROGRESSIVE[rg]) - 1)]
     else:
         actor = CHEST.get(rg)
+    m = cmap[r['rc_enum']]
+    if m.get('mode') == 'shop':
+        if r['rg'] != r['vanilla_rg']:  # a slot still selling its own good keeps the remake's own package
+            shop_rows.append((m, actor, r))
+        continue
     if not actor:
         problems.append(f"{r['check']}: no remake actor for {rg} ({r['item']})")
         continue
-    m = cmap[r['rc_enum']]
     if m.get('mode') == 'event':
         events.append((m, actor, r))
     else:
@@ -134,6 +139,38 @@ for flow, lst in by_flow.items():
     b = io.BytesIO(); ef.write(b)
     changed_files[rel] = b.getvalue()
 
+# shops: each changed slot gets a shop package selling the seed's item at SoH's price (tools/shops.py)
+import shops  # noqa: E402
+if shop_rows:
+    builder = shops.Builder(romfs)
+    slot_actor = {}
+    for m, actor, r in shop_rows:
+        try:
+            name = builder.shop_actor(r['rg_enum'], FREESTANDING.get(actor, actor) if actor else None, r.get('price') or 0)
+        except Exception as e:  # noqa: BLE001
+            problems.append(f"{r['check']}: no shop package for {r['rg_enum']} ({e})"); continue
+        slot_actor[(m['shop'], m['index'])] = (name, r)
+    for folder in sorted({shops.SHOPS[s][0] for s, _ in slot_actor}):
+        for path in sorted(glob.glob(os.path.join(romfs, 'Banc', folder, '*.bcett.byml.zs'))):
+            rel = os.path.relpath(path, romfs).replace(os.sep, '/')
+            raw = changed_files.get(rel) or zs.decompress_any(romfs, open(path, 'rb').read())
+            data = byml.load(raw)
+            hit = 0
+            for a in data.get('Actors', []) or []:
+                g = a.get('Gyaml', '')
+                if not g.startswith('Shop_') or 'Board' in g:
+                    continue
+                key = (shops.shop_of(folder, a['Translate']), int((a.get('Dynamic') or {}).get('ShopItemIndex', 0)))
+                if key in slot_actor:
+                    name, r = slot_actor[key]
+                    report.append({'check': r['check'], 'item': r['item'], 'actor': name, 'was': g, 'file': rel})
+                    a['Gyaml'] = name; hit += 1
+            if hit:
+                changed_files[rel] = byml.dump(data, byml.version_of(raw), byml.is_big_endian(raw))
+    changed_files.update(builder.files)  # (compressed with the pack dictionary when written)
+    changed_files.update(builder.tables())
+    print(f'{len(builder.made)} shop packages made for {len(slot_actor)} shop slots')
+
 # gossip stone hints: SoH's stone texts go into the remake's GOSSIP_<AREA>_NN messages, paired in order per area
 import msbt  # noqa: E402  (tools/msbt.py)
 STONE_AREA = [('DMC', 'DEATH_MOUNTAIN_CRATER'), ('DMT', 'DEATH_MOUNTAIN_TRAIL'), ('Desert Colossus', 'DESERT_COLOSSUS'),
@@ -202,7 +239,7 @@ table = restbl.load(table_src)
 for rel, out in changed_files.items():
     p = os.path.join(dst, rel)
     os.makedirs(os.path.dirname(p), exist_ok=True)
-    open(p, 'wb').write(zs.compress_with(romfs, out, 'bcett.byml.zsdic' if rel.endswith('.bcett.byml.zs') else 'zs.zsdic'))
+    open(p, 'wb').write(zs.compress_with(romfs, out, 'bcett.byml.zsdic' if rel.endswith('.bcett.byml.zs') else 'pack.zsdic' if rel.endswith('.pack.zs') else 'zs.zsdic'))
     key = rel[:-3]  # size table paths drop .zs
     old = restbl.get(table, key)
     if old is None or old < len(out) + 0x1000:

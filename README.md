@@ -41,21 +41,24 @@ They are Ship of Harkinian's, with its own descriptions. Only the ones that work
 - **Logic/Access:** item pool size, logic options, **Closed Forest** (Off removes Mido and the Kokiri boy who block
   the Deku Tree and the forest exit).
 - **Shuffles:** songs, Kokiri Sword, ocarinas, Weird Egg, Zelda's Letter, Scarecrow's Song, Gerudo Membership Card,
-  adult trade items, Treasure Chest Game.
+  adult trade items, Treasure Chest Game, **shops** (how many slots per shop, prices).
 - **Dungeons:** maps and compasses, small keys, boss keys, dungeon rewards (where each may be placed).
 - **Hints:** gossip stone hints on or off, how clear they are, how they are chosen.
 
-Everything else (shops, entrance shuffle, Master Quest, starting items, Triforce Hunt, Ship of Harkinian's extra items
+Everything else (entrance shuffle, Master Quest, starting items, Triforce Hunt, Ship of Harkinian's extra items
 and abilities, ...) is kept as in the normal game, because the remake can't follow it.
 
-## What gets shuffled (153 checks)
+## What gets shuffled (246 checks)
 - **Chests** across the overworld and dungeons, including Mido's house, the Deku Tree, dungeon maps, compasses, boss
   keys and major items (Hookshot, Bow, boots, gauntlets, Lens of Truth, Mirror Shield, ...).
 - **Songs** (Saria, Impa, Malon, the Royal Tomb, Ocarina of Time, the windmill and all of Sheik's).
 - **Dungeon rewards** (spiritual stones and medallions), **Great Fairy rewards**.
-- **Gifts and prizes:** Saria's ocarina, Zelda's Letter, Malon's egg, Darunia, the Gerudo carpenters, Light Arrows,
-  Lost Woods target, Deku Theater, diving and fishing, horseback archery, Skull Kid, Dampé, the man on the roof, the
-  bean seller, Talon's cuccos and the adult trade sequence.
+- **Gifts and minigame prizes:** Saria's ocarina, Zelda's Letter, Malon's egg, Darunia, the Gerudo carpenters, Light
+  Arrows, Lost Woods target, Deku Theater, diving and fishing, horseback archery, Skull Kid and his ocarina game, Dampé,
+  the man on the roof, the bean seller, Talon's and Anju's cuccos, bombchu bowling, both shooting galleries, the frogs,
+  the lab dive, the lost dog, the Big Poe collector, the Gold Skulltula rewards, the rolling Goron and the adult trade
+  sequence.
+- **Shops** (all 8, with the Shop Shuffle setting): new shop items are built for whatever lands on a shelf.
 - **Heart pieces** lying in the world and **boss heart containers**.
 - **Gossip stone hints** (all 40 stones, English).
 
@@ -64,11 +67,14 @@ Every other check keeps its normal item, and the randomizer's logic knows that.
 ## Known limits
 - About 100 chests stay normal, mostly small-key chests: their rooms can't be told apart from the game's data, and a
   wrong guess could make a seed unbeatable.
-- Shops, Deku Scrubs, Gold Skulltula rewards, cows, frogs, bombchu bowling and the shooting galleries are not shuffled.
+- Not shuffled: pots, grass, rocks, crates, Gold Skulltula tokens themselves, cows, Deku Scrubs, the two Death Mountain
+  Crater heart pieces, the Ice Cavern heart piece and the Goron City spinning pot.
+- Shop signs ("Bundle 05" boards) still show the normal goods.
 - Upgrades (Hookshot → Longshot, bomb bags, ...) are fixed when the seed is installed, in the order the spoiler log
   expects you to find them; Ship of Harkinian decides when you pick them up.
 - Hints are English only, and a hint may be on a different stone of the same area than in Ship of Harkinian.
-- Tested in game: chest items (bomb bag and ice arrows from Mido's chests). Songs, gifts, swapped heart pieces, hints
+- Tested in game: chest items (bomb bag and ice arrows from Mido's chests). Shops, minigame prizes and the newer
+  heart pieces have been tested as far as generating and installing seeds, not yet in play. Songs, gifts, swapped heart pieces, hints
   and Closed Forest have been tested as far as generating, installing and starting the game, not yet in play.
 
 ## Uninstall

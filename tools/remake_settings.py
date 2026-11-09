@@ -3,8 +3,7 @@
 # the value that matches the unmodified game. Shuffle settings for checks the remake can't change (pots, cows,
 # tokens, scrubs...) stay free: those checks simply keep their vanilla item and SoH's logic knows it.
 S = 'gRandoSettings.'
-FORCED = {S + 'Shopsanity': 0,            # shop items are not data the installer can change
-          S + 'LinksPocket': 3,           # "Nothing": nothing is handed to Link at the start
+FORCED = {S + 'LinksPocket': 3,           # "Nothing": nothing is handed to Link at the start
           S + 'StartingAge': 0, S + 'StartingHearts': 2,  # a new file starts as child with 3 hearts
           S + 'DoorOfTime': 0, S + 'ZorasFountain': 0, S + 'SleepingWaterfall': 0,
           S + 'FortressCarpenters': 0, S + 'RainbowBridge': 0, S + 'GanonTrial': 1, S + 'GanonTrialCount': 6,
@@ -57,9 +56,7 @@ ShuffleTokens ShuffleMasks Fishsanity FishsanityPondCount FishsanityAgeSplit Shu
 ShuffleSilver ShuffleBeehives ShuffleCows ShufflePots ShuffleGrass ShuffleCrates ShuffleBoulders ShuffleRocks ShuffleTrees
 ShuffleBushes ShuffleIcicles ShuffleRedIce ShuffleFireGorons ShuffleSigns ShuffleFrogSongRupees Shuffle100GSReward
 ShuffleFountainFairies ShuffleStoneFairies ShuffleBeanFairies ShuffleFairySpots ShuffleButterflyFairies
-ShopsanityCount ShopsanityPrices ShopsanityFixedPrice ShopsanityPriceRange1 ShopsanityPriceRange2
-ShopsanityNoWalletWeight ShopsanityChildWalletWeight ShopsanityAdultWalletWeight ShopsanityGiantWalletWeight
-ShopsanityTycoonWalletWeight ShopsanityPricesAffordable ShopShieldsTunicsGate ShuffleScrubs ScrubsPrices ScrubsFixedPrice
+ShopsanityTycoonWalletWeight ShopShieldsTunicsGate ShuffleScrubs ScrubsPrices ScrubsFixedPrice
 ScrubsPriceRange1 ScrubsPriceRange2 ScrubsNoWalletWeight ScrubsChildWalletWeight ScrubsAdultWalletWeight
 ScrubsGiantWalletWeight ScrubsTycoonWalletWeight ScrubsPricesAffordable ShuffleMerchants MerchantPrices
 MerchantFixedPrice MerchantPriceRange1 MerchantPriceRange2 MerchantNoWalletWeight MerchantChildWalletWeight

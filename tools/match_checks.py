@@ -60,6 +60,12 @@ ev_path = os.path.join(root, 'data/event_map.json')  # NPC gifts, songs, rewards
 for rc, m in (json.load(open(ev_path)) if os.path.exists(ev_path) else {}).items():
     out[rc] = dict(m, how='event')
 
+import shops  # noqa: E402  (shop slots: SoH item N = the remake's slot N-1 in the same shop; one logic region per shop)
+for a in json.load(open(os.path.join(root, 'soh_locations.json'))):
+    sl = shops.slot_of(a['rc'])
+    if sl and 'RCQUEST_MQ' not in a['args']:
+        out[a['rc']] = {'mode': 'shop', 'shop': sl[0], 'index': sl[1], 'how': 'shop'}
+
 by_area = collections.defaultdict(list)
 for a in soh:
     if a['rc'] in manual:

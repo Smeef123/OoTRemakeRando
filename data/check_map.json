@@ -1294,6 +1294,390 @@
   ],
   "how": "event"
  },
+ "RC_KF_SHOP_ITEM_1": {
+  "mode": "shop",
+  "shop": "KF_SHOP",
+  "index": 0,
+  "how": "shop"
+ },
+ "RC_KF_SHOP_ITEM_2": {
+  "mode": "shop",
+  "shop": "KF_SHOP",
+  "index": 1,
+  "how": "shop"
+ },
+ "RC_KF_SHOP_ITEM_3": {
+  "mode": "shop",
+  "shop": "KF_SHOP",
+  "index": 2,
+  "how": "shop"
+ },
+ "RC_KF_SHOP_ITEM_4": {
+  "mode": "shop",
+  "shop": "KF_SHOP",
+  "index": 3,
+  "how": "shop"
+ },
+ "RC_KF_SHOP_ITEM_5": {
+  "mode": "shop",
+  "shop": "KF_SHOP",
+  "index": 4,
+  "how": "shop"
+ },
+ "RC_KF_SHOP_ITEM_6": {
+  "mode": "shop",
+  "shop": "KF_SHOP",
+  "index": 5,
+  "how": "shop"
+ },
+ "RC_KF_SHOP_ITEM_7": {
+  "mode": "shop",
+  "shop": "KF_SHOP",
+  "index": 6,
+  "how": "shop"
+ },
+ "RC_KF_SHOP_ITEM_8": {
+  "mode": "shop",
+  "shop": "KF_SHOP",
+  "index": 7,
+  "how": "shop"
+ },
+ "RC_KAK_POTION_SHOP_ITEM_1": {
+  "mode": "shop",
+  "shop": "KAK_POTION_SHOP",
+  "index": 0,
+  "how": "shop"
+ },
+ "RC_KAK_POTION_SHOP_ITEM_2": {
+  "mode": "shop",
+  "shop": "KAK_POTION_SHOP",
+  "index": 1,
+  "how": "shop"
+ },
+ "RC_KAK_POTION_SHOP_ITEM_3": {
+  "mode": "shop",
+  "shop": "KAK_POTION_SHOP",
+  "index": 2,
+  "how": "shop"
+ },
+ "RC_KAK_POTION_SHOP_ITEM_4": {
+  "mode": "shop",
+  "shop": "KAK_POTION_SHOP",
+  "index": 3,
+  "how": "shop"
+ },
+ "RC_KAK_POTION_SHOP_ITEM_5": {
+  "mode": "shop",
+  "shop": "KAK_POTION_SHOP",
+  "index": 4,
+  "how": "shop"
+ },
+ "RC_KAK_POTION_SHOP_ITEM_6": {
+  "mode": "shop",
+  "shop": "KAK_POTION_SHOP",
+  "index": 5,
+  "how": "shop"
+ },
+ "RC_KAK_POTION_SHOP_ITEM_7": {
+  "mode": "shop",
+  "shop": "KAK_POTION_SHOP",
+  "index": 6,
+  "how": "shop"
+ },
+ "RC_KAK_POTION_SHOP_ITEM_8": {
+  "mode": "shop",
+  "shop": "KAK_POTION_SHOP",
+  "index": 7,
+  "how": "shop"
+ },
+ "RC_KAK_BAZAAR_ITEM_1": {
+  "mode": "shop",
+  "shop": "KAK_BAZAAR",
+  "index": 0,
+  "how": "shop"
+ },
+ "RC_KAK_BAZAAR_ITEM_2": {
+  "mode": "shop",
+  "shop": "KAK_BAZAAR",
+  "index": 1,
+  "how": "shop"
+ },
+ "RC_KAK_BAZAAR_ITEM_3": {
+  "mode": "shop",
+  "shop": "KAK_BAZAAR",
+  "index": 2,
+  "how": "shop"
+ },
+ "RC_KAK_BAZAAR_ITEM_4": {
+  "mode": "shop",
+  "shop": "KAK_BAZAAR",
+  "index": 3,
+  "how": "shop"
+ },
+ "RC_KAK_BAZAAR_ITEM_5": {
+  "mode": "shop",
+  "shop": "KAK_BAZAAR",
+  "index": 4,
+  "how": "shop"
+ },
+ "RC_KAK_BAZAAR_ITEM_6": {
+  "mode": "shop",
+  "shop": "KAK_BAZAAR",
+  "index": 5,
+  "how": "shop"
+ },
+ "RC_KAK_BAZAAR_ITEM_7": {
+  "mode": "shop",
+  "shop": "KAK_BAZAAR",
+  "index": 6,
+  "how": "shop"
+ },
+ "RC_KAK_BAZAAR_ITEM_8": {
+  "mode": "shop",
+  "shop": "KAK_BAZAAR",
+  "index": 7,
+  "how": "shop"
+ },
+ "RC_MARKET_BOMBCHU_SHOP_ITEM_1": {
+  "mode": "shop",
+  "shop": "MARKET_BOMBCHU_SHOP",
+  "index": 0,
+  "how": "shop"
+ },
+ "RC_MARKET_BOMBCHU_SHOP_ITEM_2": {
+  "mode": "shop",
+  "shop": "MARKET_BOMBCHU_SHOP",
+  "index": 1,
+  "how": "shop"
+ },
+ "RC_MARKET_BOMBCHU_SHOP_ITEM_3": {
+  "mode": "shop",
+  "shop": "MARKET_BOMBCHU_SHOP",
+  "index": 2,
+  "how": "shop"
+ },
+ "RC_MARKET_BOMBCHU_SHOP_ITEM_4": {
+  "mode": "shop",
+  "shop": "MARKET_BOMBCHU_SHOP",
+  "index": 3,
+  "how": "shop"
+ },
+ "RC_MARKET_BOMBCHU_SHOP_ITEM_5": {
+  "mode": "shop",
+  "shop": "MARKET_BOMBCHU_SHOP",
+  "index": 4,
+  "how": "shop"
+ },
+ "RC_MARKET_BOMBCHU_SHOP_ITEM_6": {
+  "mode": "shop",
+  "shop": "MARKET_BOMBCHU_SHOP",
+  "index": 5,
+  "how": "shop"
+ },
+ "RC_MARKET_BOMBCHU_SHOP_ITEM_7": {
+  "mode": "shop",
+  "shop": "MARKET_BOMBCHU_SHOP",
+  "index": 6,
+  "how": "shop"
+ },
+ "RC_MARKET_BOMBCHU_SHOP_ITEM_8": {
+  "mode": "shop",
+  "shop": "MARKET_BOMBCHU_SHOP",
+  "index": 7,
+  "how": "shop"
+ },
+ "RC_MARKET_POTION_SHOP_ITEM_1": {
+  "mode": "shop",
+  "shop": "MARKET_POTION_SHOP",
+  "index": 0,
+  "how": "shop"
+ },
+ "RC_MARKET_POTION_SHOP_ITEM_2": {
+  "mode": "shop",
+  "shop": "MARKET_POTION_SHOP",
+  "index": 1,
+  "how": "shop"
+ },
+ "RC_MARKET_POTION_SHOP_ITEM_3": {
+  "mode": "shop",
+  "shop": "MARKET_POTION_SHOP",
+  "index": 2,
+  "how": "shop"
+ },
+ "RC_MARKET_POTION_SHOP_ITEM_4": {
+  "mode": "shop",
+  "shop": "MARKET_POTION_SHOP",
+  "index": 3,
+  "how": "shop"
+ },
+ "RC_MARKET_POTION_SHOP_ITEM_5": {
+  "mode": "shop",
+  "shop": "MARKET_POTION_SHOP",
+  "index": 4,
+  "how": "shop"
+ },
+ "RC_MARKET_POTION_SHOP_ITEM_6": {
+  "mode": "shop",
+  "shop": "MARKET_POTION_SHOP",
+  "index": 5,
+  "how": "shop"
+ },
+ "RC_MARKET_POTION_SHOP_ITEM_7": {
+  "mode": "shop",
+  "shop": "MARKET_POTION_SHOP",
+  "index": 6,
+  "how": "shop"
+ },
+ "RC_MARKET_POTION_SHOP_ITEM_8": {
+  "mode": "shop",
+  "shop": "MARKET_POTION_SHOP",
+  "index": 7,
+  "how": "shop"
+ },
+ "RC_MARKET_BAZAAR_ITEM_1": {
+  "mode": "shop",
+  "shop": "MARKET_BAZAAR",
+  "index": 0,
+  "how": "shop"
+ },
+ "RC_MARKET_BAZAAR_ITEM_2": {
+  "mode": "shop",
+  "shop": "MARKET_BAZAAR",
+  "index": 1,
+  "how": "shop"
+ },
+ "RC_MARKET_BAZAAR_ITEM_3": {
+  "mode": "shop",
+  "shop": "MARKET_BAZAAR",
+  "index": 2,
+  "how": "shop"
+ },
+ "RC_MARKET_BAZAAR_ITEM_4": {
+  "mode": "shop",
+  "shop": "MARKET_BAZAAR",
+  "index": 3,
+  "how": "shop"
+ },
+ "RC_MARKET_BAZAAR_ITEM_5": {
+  "mode": "shop",
+  "shop": "MARKET_BAZAAR",
+  "index": 4,
+  "how": "shop"
+ },
+ "RC_MARKET_BAZAAR_ITEM_6": {
+  "mode": "shop",
+  "shop": "MARKET_BAZAAR",
+  "index": 5,
+  "how": "shop"
+ },
+ "RC_MARKET_BAZAAR_ITEM_7": {
+  "mode": "shop",
+  "shop": "MARKET_BAZAAR",
+  "index": 6,
+  "how": "shop"
+ },
+ "RC_MARKET_BAZAAR_ITEM_8": {
+  "mode": "shop",
+  "shop": "MARKET_BAZAAR",
+  "index": 7,
+  "how": "shop"
+ },
+ "RC_ZD_SHOP_ITEM_1": {
+  "mode": "shop",
+  "shop": "ZD_SHOP",
+  "index": 0,
+  "how": "shop"
+ },
+ "RC_ZD_SHOP_ITEM_2": {
+  "mode": "shop",
+  "shop": "ZD_SHOP",
+  "index": 1,
+  "how": "shop"
+ },
+ "RC_ZD_SHOP_ITEM_3": {
+  "mode": "shop",
+  "shop": "ZD_SHOP",
+  "index": 2,
+  "how": "shop"
+ },
+ "RC_ZD_SHOP_ITEM_4": {
+  "mode": "shop",
+  "shop": "ZD_SHOP",
+  "index": 3,
+  "how": "shop"
+ },
+ "RC_ZD_SHOP_ITEM_5": {
+  "mode": "shop",
+  "shop": "ZD_SHOP",
+  "index": 4,
+  "how": "shop"
+ },
+ "RC_ZD_SHOP_ITEM_6": {
+  "mode": "shop",
+  "shop": "ZD_SHOP",
+  "index": 5,
+  "how": "shop"
+ },
+ "RC_ZD_SHOP_ITEM_7": {
+  "mode": "shop",
+  "shop": "ZD_SHOP",
+  "index": 6,
+  "how": "shop"
+ },
+ "RC_ZD_SHOP_ITEM_8": {
+  "mode": "shop",
+  "shop": "ZD_SHOP",
+  "index": 7,
+  "how": "shop"
+ },
+ "RC_GC_SHOP_ITEM_1": {
+  "mode": "shop",
+  "shop": "GC_SHOP",
+  "index": 0,
+  "how": "shop"
+ },
+ "RC_GC_SHOP_ITEM_2": {
+  "mode": "shop",
+  "shop": "GC_SHOP",
+  "index": 1,
+  "how": "shop"
+ },
+ "RC_GC_SHOP_ITEM_3": {
+  "mode": "shop",
+  "shop": "GC_SHOP",
+  "index": 2,
+  "how": "shop"
+ },
+ "RC_GC_SHOP_ITEM_4": {
+  "mode": "shop",
+  "shop": "GC_SHOP",
+  "index": 3,
+  "how": "shop"
+ },
+ "RC_GC_SHOP_ITEM_5": {
+  "mode": "shop",
+  "shop": "GC_SHOP",
+  "index": 4,
+  "how": "shop"
+ },
+ "RC_GC_SHOP_ITEM_6": {
+  "mode": "shop",
+  "shop": "GC_SHOP",
+  "index": 5,
+  "how": "shop"
+ },
+ "RC_GC_SHOP_ITEM_7": {
+  "mode": "shop",
+  "shop": "GC_SHOP",
+  "index": 6,
+  "how": "shop"
+ },
+ "RC_GC_SHOP_ITEM_8": {
+  "mode": "shop",
+  "shop": "GC_SHOP",
+  "index": 7,
+  "how": "shop"
+ },
  "RC_GRAVEYARD_SHIELD_GRAVE_CHEST": {
   "folder": "Graveyard",
   "hash": 16912540161937823130,
